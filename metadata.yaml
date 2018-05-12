@@ -1,0 +1,41 @@
+_repo: '-----------------------13-------------------------------------------_37868'
+_version: 0.1.0
+alternative_title: "Analecta Volume 1\r\nShort stories - social images and studies"
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Vlachos, Angelos
+    aliases:
+    - Βλάχος, Άγγελος
+    - Vlahos, Angelos
+    - Βλάχος, Αγγελος
+    birthdate: 1838
+    deathdate: 1920
+    gutenberg_agent_id: '39102'
+    url: http://www.gutenberg.org/2009/agents/39102
+    wikipedia: http://el.wikipedia.org/wiki/%CE%86%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82_%CE%92%CE%BB%CE%AC%CF%87%CE%BF%CF%82_%281838-1920%29
+description: ''
+gutenberg_issued: '2011-10-27'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '37868'
+language: el
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Short stories, Greek'
+- !lcc 'PA'
+- !lcsh 'Greek fiction, Modern'
+tableOfContents: Έρως και Ψυχή -- Λαυριακής μετοχής απομνημονεύματα -- Εσπερίς του
+  Κ. Σουσαμάκη -- Καθολική μυστική διά σφαιριδίων ψηφοφορία εν Αφρική -- Το ενθύμημα
+  του Μιμίκου -- Ο πρώτος λαχνός -- Τα χρήματα -- Υιός εκ πατρός -- Το δώρον της θείας
+  -- Η μπογάτσα -- Ο επτάψυχος γάτος -- Πρώην και νυν Αθήναι -- Αθηναϊκαί επιστολαί
+  (Α'.-Κ'.) -- Πτωχεία και πλούτος -- Ελληνική ανυπομονησία -- Άρτος πιτυρίτης --
+  Φιλέλληνες και μισέλληνες -- Συρμός ή πολιτισμός; -- Το συμπόσιον των σκύλων --
+  Τα εμπορικά και αι κυρίαι -- Ανά τας οδούς των Αθηνών -- Οι τραγουδισταί των οδών
+  -- Η Κυρία δέχεται.
+title: "Ανάλεκτα Τόμος Πρώτος\r\nΔιηγήματα - Κοινωνικαί εικόνες και μελέται"
+url: http://www.gutenberg.org/ebooks/37868

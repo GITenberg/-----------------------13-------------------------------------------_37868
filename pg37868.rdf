@@ -1,168 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/37868">
     <dcterms:title>Ανάλεκτα Τόμος Πρώτος&#13;
 Διηγήματα - Κοινωνικαί εικόνες και μελέται</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-0.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:20:48</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1228685</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N005b35aff13f4e62b17e3dddd014e604">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1814452</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T12:27:35.799805</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6066191447fd4f08b5a0dee3da28a25f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/39102">
-        <pgterms:name>Vlahos, Angelos</pgterms:name>
-        <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%86%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82_%CE%92%CE%BB%CE%AC%CF%87%CE%BF%CF%82_%281838-1920%29"/>
-      </pgterms:agent>
-    </dcterms:creator>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nfedbcfdcaf3e429c856f5ebea91ff341">
+        <rdf:value>PA</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T12:28:14.591963</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T01:06:57.134165</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N70fc0f23757f4b83becf3ebcdb184007">
+          <rdf:Description rdf:nodeID="N41aa10d033134144afc2e6a2f0ab8d7d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1610695</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">461413</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6fa9880f7f0c473d93129c0a51c8ec86">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8f573df86e4544a19501aa93284ac07f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Short stories, Greek</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/39102">
+        <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%86%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82_%CE%92%CE%BB%CE%AC%CF%87%CE%BF%CF%82_%281838-1920%29"/>
+        <pgterms:alias>Βλάχος, Άγγελος</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
+        <pgterms:alias>Βλάχος, Αγγελος</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</pgterms:deathdate>
+        <pgterms:name>Vlachos, Angelos</pgterms:name>
+        <pgterms:alias>Vlahos, Angelos</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nedcd8c2b389d469999929e3d1f928cc6">
+      <rdf:Description rdf:nodeID="N50479227dfd8439897ef5e078229f8a4">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</pgterms:downloads>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-27</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T12:27:16.544530</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-0.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:21:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N838676555b524954bb4e5a607c3473b6">
+          <rdf:Description rdf:nodeID="Nada69eed82d54f4589c21d8b9d2f9edc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432544</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">359794</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N32f2a050fa30488caa56b2b3451d18bf">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2ca7cd3a1bd346b7b4095f8a6ec3f6d8">
+        <rdf:value>Greek fiction, Modern</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.epub.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T01:07:05.503017</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T12:27:18.389566</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460935</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12326</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndce1c94bb82c498a9aba9a8d980010c2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nb552c03f8d7f43d8b41b1d865925e839">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-h/37868-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1270611</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.kindle.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T01:07:05.392003</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2f298d3ee5fc4f398f8be03082d01bf4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N233828ca45fe4e1f94d4886ca4a0a3f0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:20:52</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819503</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-27</dcterms:issued>
+    <dcterms:tableOfContents>Έρως και Ψυχή -- Λαυριακής μετοχής απομνημονεύματα -- Εσπερίς του Κ. Σουσαμάκη -- Καθολική μυστική διά σφαιριδίων ψηφοφορία εν Αφρική -- Το ενθύμημα του Μιμίκου -- Ο πρώτος λαχνός -- Τα χρήματα -- Υιός εκ πατρός -- Το δώρον της θείας -- Η μπογάτσα -- Ο επτάψυχος γάτος -- Πρώην και νυν Αθήναι -- Αθηναϊκαί επιστολαί (Α'.-Κ'.) -- Πτωχεία και πλούτος -- Ελληνική ανυπομονησία -- Άρτος πιτυρίτης -- Φιλέλληνες και μισέλληνες -- Συρμός ή πολιτισμός; -- Το συμπόσιον των σκύλων -- Τα εμπορικά και αι κυρίαι -- Ανά τας οδούς των Αθηνών -- Οι τραγουδισταί των οδών -- Η Κυρία δέχεται.</dcterms:tableOfContents>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-h.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:21:26</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbffe09da12574c118ca3b2ca5f36aad9">
+          <rdf:Description rdf:nodeID="Nea7db453f07047d196725485ba0fb343">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c65659a4f394b648f20310ae75fd87b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N0019c55a2b654add81cb1da624ac69f0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:21:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394719</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.kindle.images">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba5035504c4040378339cabf9a0e3525">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-0.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1861105</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T12:27:45.817200</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Ndef9dca82fb2452ca16899cb7879845b">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-0.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:20:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1228685</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf57835038f864b7792bcad3560eeeaac">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:21:26</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na198151a531d4c46b19aed9c32febb2c">
+          <rdf:Description rdf:nodeID="Nad90ba832521494490a53ced132aeed7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1865873</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N115561b382b64ce19fc32e80fbe9c46c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T01:07:01.630072</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">359794</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:alternative>Analecta Volume 1&#13;
+Short stories - social images and studies</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37868.epub.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9b12a028cae94f06970b1a084413b803">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433051</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T01:06:57.867131</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37868/37868-h/37868-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:20:52</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37868"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N91ffb9dca4a94f53b4479de6762c4dd8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1270611</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://el.wikipedia.org/wiki/%CE%86%CE%B3%CE%B3%CE%B5%CE%BB%CE%BF%CF%82_%CE%92%CE%BB%CE%AC%CF%87%CE%BF%CF%82_%281838-1920%29">
     <dcterms:description>el.wikipedia</dcterms:description>
